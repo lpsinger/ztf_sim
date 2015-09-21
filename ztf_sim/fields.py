@@ -12,7 +12,7 @@ class Fields:
     # TODO: consider using some of PTFFields.py code 
     def __init__(self,dbname='test_fields'):
         self._load_fields(dbname=dbname)
-        self.loc = P48_loc
+        self.loc = P48_loc # There is some problem trying to use it later, methods are missing !!!!
         # TODO: convert into Galactic & ecliptic coords and store
         
     def _load_fields(self, dbname='test_fields'):
